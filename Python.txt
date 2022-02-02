@@ -1,0 +1,106 @@
+--> Salida <--
+print("sms")
+print(variables)
+
+--> INGRESO <--
+vaiable=input()		//reconoce como entero
+debo hacer un casting
+int(variable)
+
+
+--> Metodos <--
+def nom_Metodo (parametros):
+	...
+	...
+...
+
+def nom_Metodo (parametros):
+	...
+	...
+	return variable o expresion
+
+//llamo al metodo
+nom_metodo (parametros)
+variable=nom_metodo (parametros)
+
+--> Listas <--
+INSERTAR
+nom_lista=["val1", "val2", "val3", "valN"]
+print (nom_Lista[0:2]) //imprime desde el 0 hasta la posicion 2
+nomLista.append ("elemento") //agrego al final
+.insert (posicion, "elemento") // inserta en sierta posicion
+.extends(["elementoN", "elementoN+1"]) //agrega varios elementos aal final
+.index //devuelve el indice del elemento
+print("elemento" in nom_lista) // Si el elemento esta en mi lista: true o false
+ELIMINAR
+nom_lista.remove("elemento")
+.pop() // elimina el ultimo elemento
+
+puedo sumar listas
+lista3=lista1+lista2
+
+--> TUPLAS <--
+mas rapida al ejecutar a diferencia de las listas gracias a las optimizaciones
+menos espacio que una lista
+Sintaxis: nomTupla=(elem1, elem2,elemN)
+para imprimir un elemento: nomTupla[posicion]
+Convertir de tupla a lista: nomlista=list (nomTupla)
+Convertir de lista a tupla: nomTupla=tuple(nomLista)
+.cout(elemento) //cuantas veces existe ese elemento
+desempaquetar tuplas es:
+crear varias variables: var1, var2, varN=nomTupla //se asigna en orden los valores
+NOTA: no puedo modificar mi tupla...
+
+--> DICCIONARIOS <--
+Estructuras de datos similar a listas y tuplas
+clave : valor // a cada valor una clave
+Sintaxis: 
+nomDiccionario={"clave":"valor", "clave":"valor","clave":"valor"}
+
+print (nomDiccionario[clave o valor])
+
+nomDiccionario["clave"]="valor"   //añade a l diccionario
+
+del nomDiccionario["clave"]	//elimina esa clave con su valor
+
+diccionario3 = {clave: valor,clave: valor,
+                clave: valor, clave: [valor, valor,valorN]}
+
+nomDiccionario.keys()	//claves
+
+len(nomDiccionario)	//numero de clave:valor del diccionario
+
+--> CONDICIONALES <--
+if(condicion):
+	....
+else:
+	...
+....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

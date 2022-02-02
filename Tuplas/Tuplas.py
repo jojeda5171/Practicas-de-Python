@@ -1,0 +1,10 @@
+print("TUPLAS")
+nombres=("José","Luis","Denis","Jadira")
+print (nombres)
+listaNombres=list (nombres)
+print(listaNombres)
+tuplaNombres=tuple(listaNombres)
+print(tuplaNombres)
+print(nombres.count("José"))
+nombre1, nombre2, nombre3, nombre4=nombres
+print("Nombre: ",nombre1)
