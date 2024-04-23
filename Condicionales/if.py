@@ -1,7 +1,7 @@
 def evaluacion(nota):
-    valoracion = "aprobado"
+    valoracion = "Aprobado"
     if (nota < 5):
-        valoracion = "suspenso"
+        valoracion = "Suspenso"
     return valoracion
 
 
