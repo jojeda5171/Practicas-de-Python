@@ -1,4 +1,4 @@
-print("Ejemplo de listas")
+print("Ejemplo de Listas")
 nombres=["José", "Luis", "Ojeda", "Carrasco"]
 print (nombres)
 print (nombres[1])
