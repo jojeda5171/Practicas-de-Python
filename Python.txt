@@ -1,3 +1,5 @@
+--> APUNTES DEL CURSO <--
+
 --> Salida <--
 print("sms")
 print(variables)
