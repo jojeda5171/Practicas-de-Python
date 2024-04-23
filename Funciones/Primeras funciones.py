@@ -1,6 +1,6 @@
 def saludos():
     print ("Hola Mundo")
-    print("funcion2")
-    print("tercer sms")
+    print("Funcion2")
+    print("Tercer sms")
 
 saludos()
