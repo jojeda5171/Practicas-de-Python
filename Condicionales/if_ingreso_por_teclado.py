@@ -3,9 +3,9 @@ notaAlumno = input()
 
 
 def evaluacion(nota):
-    valoracion = "aprobado"
+    valoracion = "Sprobado"
     if (nota < 5):
-        valoracion = "suspenso"
+        valoracion = "Suspenso"
     return valoracion
 
 
