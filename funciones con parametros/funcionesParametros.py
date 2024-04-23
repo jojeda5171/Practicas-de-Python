@@ -1,7 +1,7 @@
 def suma(numero1, numero2):
     print(numero1+numero2)
 
-suma(3, 7)
+suma(13, 17)
 
 def resta(numero1, numero2):
     resultado=numero1+numero2
