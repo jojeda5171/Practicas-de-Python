@@ -1,4 +1,4 @@
-print("TUPLAS")
+print("Tuplas en Python")
 nombres=("José","Luis","Denis","Jadira")
 print (nombres)
 listaNombres=list (nombres)
