@@ -1,7 +1,7 @@
 diccionario = {"Alemania": "Berlin", 23: "Jordan", "Mosqueteros": 3}
 print(diccionario)
 
-tupla = ("España", "Francia", "Reino Unido", "Alemania")
+tupla = ("España", "Francia", "Inglaterra", "Alemania")
 diccionario2 = {tupla[0]: "Madrid", tupla[1]: "Paris",
                 tupla[2]: "Londres", tupla[3]: "Berlin"}
 print(diccionario2)
